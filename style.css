@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    height: 60px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: blue;
+}
+
+.container {
+    padding: 30px;
+    height: calc(100vh - 120px);
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 2%, rgba(0, 212, 255, 1) 37%, rgba(2, 0, 36, 1) 98%);
+}
+
+.container h2 {
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    border: 1px solid white;
+    text-align: center;
+    padding: 15px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.likeBtn {
+    display: block;
+    margin: 10px auto;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.logoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
